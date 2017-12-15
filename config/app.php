@@ -356,7 +356,7 @@ return [
         Libern\SqlLogging\SqlLoggingServiceProvider::class,
         Jenssegers\Agent\AgentServiceProvider::class,
         Conner\Tagging\Providers\TaggingServiceProvider::class,
-
+        Yajra\Datatables\DatatablesServiceProvider::class,
     ),
 
     /*
@@ -421,7 +421,7 @@ return [
 //        'Setting'     => Arcanedev\Settings\Facades\Setting::class,
         'Setting'     => App\Facades\SettingFacade::class,
         'Agent'         => Jenssegers\Agent\Facades\Agent::class,
-
+        'Datatables' => Yajra\Datatables\Facades\Datatables::class,
     ],
 
 ];
